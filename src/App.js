@@ -4,7 +4,35 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <ul>
+        <h1>Mobile Operating System</h1>
+        <div id="lis">
+          <li>Andriod</li>
+          <li>Blackberry</li>
+          <li>iPhone</li>
+          <li>Windows Phone</li>
+        </div>
+      </ul>
+
+      <ul>
+        <h1>Mobile Manufactures</h1>
+        <div id="liss">
+          <li>Samsung</li>
+          <li>HTC</li>
+          <li>Micromax</li>
+        </div>
+        <ul>
+          <li>Apple</li>
+        </ul>
+      </ul>
+    </div>
+  );
+}
+
+export default App;
+
+/*
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,8 +46,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
 
-export default App;
+
+
+*/
