@@ -2,18 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const data = ['Android', 'Blackberry', 'iPhone', 'Windows Phone'];
+
   return (
     <div className="App">
-      <ul>
+      <div id="lis">
         <h1>Mobile Operating System</h1>
-        <div id="lis">
-          <li>Andriod</li>
-          <li>Blackberry</li>
-          <li>iPhone</li>
-          <li>Windows Phone</li>
-        </div>
-      </ul>
-
+        <ul>
+          {data.map((e) => (
+            <div>
+              <li>{e}</li>
+            </div>
+          ))}
+        </ul>
+      </div>
       <ul>
         <h1>Mobile Manufactures</h1>
         <div id="liss">
