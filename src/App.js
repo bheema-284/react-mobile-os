@@ -17,8 +17,14 @@ function App() {
       <ul>
         <h1>Mobile Manufactures</h1>
         <div id="liss">
-          <li>Samsung</li>
-          <li>HTC</li>
+          <ul>
+            <div id="lss">
+              <ul>
+                <li>Samsung</li>
+                <li>HTC</li>
+              </ul>
+            </div>
+          </ul>
           <li>Micromax</li>
         </div>
         <ul>
